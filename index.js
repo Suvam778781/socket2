@@ -3,7 +3,7 @@ const cors = require("cors");;
 const http = require("http"); // Import the 'http' module
 const socketIo = require("socket.io"); // Import 'socket.io'
 const { default: axios } = require("axios");
-require("dotenv").config();
+
 const server = express();
 const httpServer3 = http.createServer(server);
 
